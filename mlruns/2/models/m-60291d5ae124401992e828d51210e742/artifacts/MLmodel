@@ -1,0 +1,23 @@
+artifact_path: file:c:/REDES NEURONALES/TP1_RegresionSoftmax_FernandezSanJuan/mlruns/2/models/m-60291d5ae124401992e828d51210e742/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.14.7
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.15.0+cpu
+mlflow_version: 3.18.0
+model_id: m-60291d5ae124401992e828d51210e742
+model_size_bytes: 804465
+model_uuid: m-60291d5ae124401992e828d51210e742
+prompts: null
+run_id: ec8d5639f64c42be877f3534c002e536
+utc_time_created: '2026-11-21 04:28:01.222046'
