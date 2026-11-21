@@ -6,5 +6,6 @@ nltk
 matplotlib
 optuna
 plotly
+nbformat
 mlflow
 tensorboard

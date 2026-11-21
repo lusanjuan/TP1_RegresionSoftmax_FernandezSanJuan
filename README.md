@@ -32,13 +32,3 @@ jupyter notebook TP1_RegresionSoftmax_FernandezSanJuan.ipynb
 ```
 
 El dataset se descarga solo con `sklearn.datasets.fetch_20newsgroups`. Las semillas están fijas (incluida la del sampler de Optuna), aunque en GPU puede haber diferencias mínimas entre corridas. Para ver las curvas en TensorBoard: `tensorboard --logdir runs`. Para ver los experimentos en MLflow: `mlflow ui`.
-
-## Correcciones respecto de la primera entrega
-
-- Se completaron las respuestas 9 y 10.
-- El tiempo se mide en el código con `time.perf_counter()`.
-- Las curvas finales se grafican en la notebook, además de TensorBoard.
-- El test ya no se usa como validación: hay early stopping sobre un conjunto de validación separado y el test se usa una sola vez.
-- El modelo final se repite con 3 semillas.
-- Se compara la entrada TF-IDF contra la estandarizada.
-- Una sola línea de instalación, y se agregan README y requirements.
